@@ -1,0 +1,107 @@
+
+{
+  "barbers" : [
+    {
+      "id": 1,
+      "shopName": "Maqasi Zerrin Barber",
+      "location": "Minara",
+      "email": "Karwan@gmail.com",
+      "phone": "0750 131 3322",
+      "type": "3.0 ⭐",
+      "image": "img/IMG_20220226_154111_382.jpg"
+    },
+    {
+      "id": 2,
+      "shopName": "Turkish Barber",
+      "location": "Havalan",
+      "email": "kawa@gmail.com",
+      "phone": "0750 555 2321",
+      "type": "4.8 ⭐",
+      "image": "img/IMG_20220226_154106_495.jpg"
+    },
+    {
+      "id": 3,
+      "shopName": "Family Barber",
+      "location": "Brayati",
+      "email": "ahmadkawa@gmail.com",
+      "phone": "0750 131 0021",
+      "type": "4.0 ⭐",
+      "image": "img/IMG_20220226_154116_292.jpg"
+    },
+    {
+      "id": 4,
+      "shopName": "Hussam Alrassam Barber",
+      "location": "Baxtyari",
+      "email": "Hussam@gmail.com",
+      "phone": "0750 131 2321",
+      "type": "4.4 ⭐",
+      "image": "img/IMG_20220226_154113_655.jpg"
+    },
+    {
+        "id": 5,
+        "shopName": "karwan Alrassam Barber",
+        "location": "Baxtyari",
+        "email": "Hussam@gmail.com",
+        "phone": "0750 131 2321",
+        "type": "4.4 ⭐",
+        "image": "img/IMG_20220226_154113_655.jpg"
+      }
+],
+  "locations" : [
+ 
+        { "address": "Ankawa" },
+        { "address": "Andazyaran" },
+        { "address": "Azady" },
+        { "address": "Badawa" },
+        { "address": "Bahar" },
+        { "address": "Berkot" },
+        { "address": "Binaslawa" }
+    
+  ],
+  "jobs" : [
+    {
+      "id": 1,
+      "shopName": "Maqasi Zerrin Barber",
+      "location": "Minara",
+      "email": "Karwan@gmail.com",
+      "phone": "0750 131 3322",
+      "type": "full time",
+      "desc": "Need a Someone to clean a barber at 10AM to 10PM",
+      "image": "img/IMG_20220226_154111_382.jpg"
+    },
+    {
+      "id": 2,
+      "shopName": "Turkish Barber",
+      "location": "Ankawa",
+      "email": "kawa@gmail.com",
+      "phone": "0750 555 2321",
+      "type": "part time",
+      "desc": "Need a Barber to help at 10AM to 6PM",
+      "image": "img/IMG_20220226_154106_495.jpg"
+    },
+    {
+      "id": 3,
+      "shopName": "Family Barber",
+      "location": "Brayati",
+      "email": "ahmadkawa@gmail.com",
+      "phone": "0750 131 0021",
+      "type": "part time",
+      "desc": "Need a Cleaner at 8AM to 2PM",
+      "image": "img/IMG_20220226_154116_292.jpg"
+    },
+    {
+      "id": 4,
+      "shopName": "Hussam Alrassam Barber",
+      "location": "Baxtyari",
+      "email": "Hussam@gmail.com",
+      "phone": "0750 131 2321",
+      "type": "full time",
+      "desc": "Need a Barber",
+      "image": "img/IMG_20220226_154113_655.jpg"
+    }
+  ]
+  
+}
+
+
+ 

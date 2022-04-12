@@ -1,0 +1,60 @@
+.modal {
+  font-size: 12px;
+  background-color:#7349c8;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  font: bold;
+}
+
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid rgb(160, 119, 119);
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+ .button{
+font: bold;
+border-radius:10px ;
+background-color: #6415FF;
+color: white;
+height: 50px;
+width: auto;
+padding-left: 10px;
+padding-right: 10px;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: 10px;
+  top: 10px;
+  color: black;
+  font-size: 24px;
+  background: #ffffff;
+clip-path: circle();  
+}
+.modal > .picker {
+  padding: 10px;
+  display:block;
+  color: black;
+}
+.modal > .phone {
+  padding: 10px;
+  border-radius: 5px;
+}
