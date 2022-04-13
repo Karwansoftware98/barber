@@ -1,60 +1,93 @@
-.modal {
-  font-size: 12px;
-  background-color:#7349c8;
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  padding: 5px;
-  color: white;
-  font: bold;
+.modalBackground {
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
 }
 
-.modal > .header {
-  width: 100%;
-  border-bottom: 1px solid rgb(160, 119, 119);
-  font-size: 18px;
+.modalContainer {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalContainer .title {
+  display: inline-block;
   text-align: center;
-  padding: 5px;
+  margin-top: 10px;
 }
-.modal > .content {
-  width: 100%;
-  padding: 10px 5px;
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
 }
-.modal > .actions {
-  width: 100%;
-  padding: 10px 5px;
-  margin: auto;
-  text-align: center;
-}
- .button{
-font: bold;
-border-radius:10px ;
-background-color: #6415FF;
-color: white;
-height: 50px;
-width: auto;
-padding-left: 10px;
-padding-right: 10px;
-}
-.modal > .close {
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
   cursor: pointer;
-  position: absolute;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.modalContainer .body  input  {
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 22rem;
+  border-radius: 5px;
+  border: 1px solid #6415FF;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: #6415FF;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  padding:5px ;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
+.modalBackground > .close {
+  cursor: pointer;
   display: block;
   padding: 2px 5px;
   line-height: 20px;
-  right: 10px;
-  top: 10px;
+  right: -10px;
+  top: -10px;
   color: black;
   font-size: 24px;
   background: #ffffff;
-clip-path: circle();  
-}
-.modal > .picker {
-  padding: 10px;
-  display:block;
-  color: black;
-}
-.modal > .phone {
-  padding: 10px;
-  border-radius: 5px;
+  clip-path: circle();  
 }

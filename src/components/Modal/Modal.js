@@ -8,39 +8,49 @@ const PhoneNumber = tw.input`flex-1 border rounded-lg border-gray-300 pl-3 w-0`;
 
 
 export default () => (
+
+  
   <Popup
     trigger={<button className="button">Book Now</button>}
     modal
     nested
   >
     {close => (
-      <div className="modal">
-        <button className="close" onClick={close}>
-          &times;
-        </button>
-        <div className="header">Take appointment </div>
-        <div className="content">
-          {' '}
 
-          <br />
+          <div className="modalBackground">
            
+          <div className="modalContainer">
+            <div className="titleCloseBtn">
+            <button className="close" onClick={close}>
+                &times;
+             </button>
+            </div>
+            <div className="title">
+              <h1>Take Appointment </h1>
+            </div>
+            <div className="body"> 
+            {/* <span>pick a date </span> */}
+             <input  type="date" />
+
+            {/* <span>pick a time</span> */}
+             <input  type="time" />
+
+            {/* <span>your phone number </span> */}
+             <input  type="phone"  placeholder='phone number'/>
+
+            </div>
+            <div className="footer">
+            <button
+            id="cancelBtn"
+            className="close" onClick={close}>
+              Cancel
+             </button>
+              <button>Submit</button>
+            </div>
+          </div>
         </div>
-        
-      
-        <div className='picker'> 
-          <input type="date" id="start" 
-              name="trip-start"
-              min="2018-01-01" max="2023-12-31" />
-              <input type="time" id="appt" name="appt"
-       min="09:00" max="18:00" required/>
-       </div>
+     
        
-      <input type="phonenumber" placeholder='phone number'/>
-
-      <button className="button">Submit</button>
-       
-
-      </div>
     )}
   </Popup>
 );
